@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="Parceiros Burguês — hambúrgueres artesanais feitos na brasa em Pombal-PB.">
+  <title>Parceiros Burguês | Sem luxo, pura excelência</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#inicio">
+    <span class="brand-icon">🍔</span>
+    <span class="brand-text">PARCEIROS<br><b>BURGUÊS</b></span>
+    <span class="flags">🇧🇷 🇨🇴</span>
+  </a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+  <nav id="nav">
+    <a class="active" href="#inicio">Início</a>
+    <a href="#menu">Menu</a>
+    <a href="#sobre">Sobre nós</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <button class="cart-open" id="cartOpen" aria-label="Abrir carrinho">🛒 <span id="cartCount">0</span></button>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="hero-copy">
+      <span class="eyebrow">O verdadeiro sabor da brasa</span>
+      <h1>PARCEIROS<br><em>BURGUÊS</em></h1>
+      <h2>SEM LUXO, PURA EXCELÊNCIA.</h2>
+      <p>Hambúrgueres artesanais feitos na brasa,<br>com ingredientes selecionados e muito sabor!</p>
+      <a class="hero-button" href="#menu">🍔 &nbsp; FAÇA SEU PEDIDO <b>›</b></a>
+      <div class="handwritten">O verdadeiro sabor<br>em cada mordida!</div>
+    </div>
+    <div class="menu-title"><i></i><b>Nosso Menu</b><i></i></div>
+  </section>
+
+  <section class="menu-section" id="menu">
+    <div class="section-intro">
+      <span class="eyebrow">Escolha o seu favorito</span>
+      <h2>HAMBÚRGUER DE VERDADE. <em>SABOR SEM IGUAL.</em></h2>
+      <p>Feito com capricho, do primeiro ao último ingrediente.</p>
+    </div>
+    <div class="products">
+      <article class="product">
+        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=85" alt="Hambúrguer Medellín">
+        <div class="product-content">
+          <h3>MEDELLÍN</h3><p>Hambúrguer artesanal, queijo e molho especial da casa.</p>
+          <div class="product-foot"><strong>R$ 21,90</strong><button class="add" data-name="Medellín" data-price="21.90">＋ Adicionar</button></div>
+        </div>
+      </article>
+      <article class="product">
+        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=900&q=85" alt="Hambúrguer El Patrón">
+        <div class="product-content">
+          <h3>EL PATRÓN</h3><p>Uma combinação especial, suculenta e cheia de sabor.</p>
+          <div class="product-foot"><strong>R$ 23,90</strong><button class="add" data-name="El Patrón" data-price="23.90">＋ Adicionar</button></div>
+        </div>
+      </article>
+      <article class="product">
+        <img src="https://images.unsplash.com/photo-1553979459-d2229ba7433a?auto=format&fit=crop&w=900&q=85" alt="Hambúrguer San Andrés">
+        <div class="product-content">
+          <h3>SAN ANDRÉS</h3><p>Brioche, carne na brasa, mozzarella e abacaxi.</p>
+          <div class="product-foot"><strong>R$ 24,90</strong><button class="add" data-name="San Andrés" data-price="24.90">＋ Adicionar</button></div>
+        </div>
+      </article>
+      <article class="product">
+        <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=900&q=85" alt="Hambúrguer Bogotá">
+        <div class="product-content">
+          <h3>BOGOTÁ</h3><p>Uma explosão de sabor para quem gosta de burger completo.</p>
+          <div class="product-foot"><strong>R$ 26,90</strong><button class="add" data-name="Bogotá" data-price="26.90">＋ Adicionar</button></div>
+        </div>
+      </article>
+    </div>
+    <article class="combo">
+      <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=1000&q=85" alt="Combo com hambúrguer e batata frita">
+      <div class="combo-info"><span>COMBO PARCEIROS</span><h3>Hambúrguer + Batata + Refrigerante</h3><strong>R$ 29,90</strong><button class="add" data-name="Combo Parceiros" data-price="29.90">QUERO ESSE COMBO ›</button></div>
+    </article>
+  </section>
+
+  <section class="features">
+    <div><span>♨</span><p><b>100% artesanal</b><small>Feito na brasa 🔥</small></p></div>
+    <div><span>✦</span><p><b>Ingredientes</b><small>selecionados</small></p></div>
+    <div><span>🛵</span><p><b>Entrega rápida</b><small>em Pombal-PB</small></p></div>
+    <a class="whatsapp" href="https://wa.me/5583999722597" target="_blank" rel="noopener">◉ &nbsp; Peça agora pelo WhatsApp <b>›</b></a>
+  </section>
+
+  <section class="about" id="sobre">
+    <span class="eyebrow">Nossa essência</span>
+    <h2>SEM LUXO, <em>PURA EXCELÊNCIA.</em></h2>
+    <p>Hambúrgueres artesanais preparados com cuidado, ingredientes selecionados e aquele sabor especial de comida feita na brasa.</p>
+  </section>
+</main>
+<footer id="contato">
+  <b>PARCEIROS BURGUÊS</b><span>Pombal — Paraíba</span>
+  <a href="https://wa.me/5583999722597" target="_blank" rel="noopener">Faça seu pedido pelo WhatsApp</a>
+  <small>© Parceiros Burguês</small>
+</footer>
+
+<div class="shade" id="shade"></div>
+<aside class="cart" id="cart" aria-hidden="true">
+  <div class="cart-header"><h2>Seu pedido</h2><button id="cartClose" aria-label="Fechar">×</button></div>
+  <div class="cart-items" id="cartItems"><p class="empty">Seu carrinho está vazio.</p></div>
+  <div class="total"><span>Total</span><b id="cartTotal">R$ 0,00</b></div>
+  <button class="checkout" id="checkout">FINALIZAR PELO WHATSAPP</button>
+</aside>
+<script src="script.js"></script>
+</body>
+</html>
